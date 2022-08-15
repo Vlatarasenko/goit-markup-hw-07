@@ -3,19 +3,19 @@
   flex-wrap: wrap;
   gap: 30px;
 
-  .feature-item {
+  &.feature-item {
     width: 270px;
   }
 
-  .feature-item:nth-child(4n) {
+  &.feature-item:nth-child(4n) {
     margin-right: 0;
   }
 
-  .feature-item:nth-child(-n + 4) {
+  &.feature-item:nth-child(-n + 4) {
     margin-bottom: 0;
   }
 
-  .feature-title {
+  &.feature-title {
     margin-top: 0px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -24,7 +24,7 @@
     text-transform: uppercase;
   }
 
-  .feature-text {
+  &.feature-text {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 14px;
