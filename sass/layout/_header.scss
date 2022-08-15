@@ -16,7 +16,7 @@
   display: flex;
   margin-left: 93px;
 
-  &.link {
+  & .link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -30,7 +30,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &.link.current {
+  & .link.current {
     color: var(--active-color);
   }
 }
